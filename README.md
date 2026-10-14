@@ -2,104 +2,103 @@
 
 ## I. Project Description
 
-The proposed project is a mobile Meal Planner application designed to help users organize meals for the week.
-
-- The application will give users one place to plan meals instead of keeping meal ideas in different notes, messages, or lists.
-- The goal is to create a simple application that is easy to use and can be expanded as new course concepts are introduced.
+The Meal Planner is an Android mobile application developed to help users organize and save meal ideas in one location. The project demonstrates basic Android application development, user interaction, and local data storage.
 
 ## II. Problem Addressing
 
-Meal planning can become disorganized when users have to keep track of meal ideas, schedules, and grocery needs in several different places.
+Meal planning can become disorganized when users keep meal ideas in different notes, messages, or lists.
 
-- Users may spend extra time deciding what to prepare each day or forget meals they already planned.
-- The Meal Planner application will address this problem by allowing users to plan meals ahead of time in one organized location.
-- A weekly meal plan can also make it easier to prepare for grocery shopping and keep track of upcoming meals.
+The Meal Planner addresses this problem by providing a simple interface where users can enter, save, and review their meals without having to remember them or enter them again each time the application opens.
 
 ## III. Platform
 
-The application will be developed for the Android mobile platform.
-
-- Android was selected because the course focuses on Android mobile application development and the platform supports the features needed for this project.
-- I plan to start with the basic Android development concepts we are learning and add to the app as I learn more throughout the course.
+- **Operating System:** Android
+- **Programming Language:** Java
+- **Development Environment:** Android Studio
+- **Testing Environment:** Android Emulator
+- **Version Control:** Git and GitHub
 
 ## IV. Front-End and Back-End Support
 
 ### Front End
 
-- The front end will include the screens, buttons, text fields, and menus that the user interacts with.
-- Users will be able to view their weekly meal plan, select a day, and add or edit meals.
-- The interface will focus on being simple, readable, and easy to navigate.
+The application includes:
+
+- A main screen displaying the Meal Planner title and weekly planning section.
+- Monday, Tuesday, and Wednesday meal placeholders.
+- An Add Meal button that opens a meal entry dialog.
+- A View Grocery List button that displays saved meals.
+- Simple navigation using buttons and dialog windows.
 
 ### Back End
 
-- The back end will support saving and retrieving the meal information entered by the user.
-- The exact storage method can be determined as the project develops and additional course concepts are introduced.
-- My first goal is to make sure users can save and view their meal information correctly. More features can be added later as the project develops.
+The application uses Java to manage user interactions and Android SharedPreferences to store meal information locally.
+
+- Users can enter and save meals.
+- Saved meals are retrieved when the user selects View Grocery List.
+- Meal information remains stored between application sessions.
+- No external database or online server is required.
 
 ## V. Functionality
 
-The Meal Planner application is planned to include the following functions:
+The completed application supports the following functions:
 
-- View a weekly meal plan.
-- Add a meal to a selected day.
-- Edit a previously entered meal.
-- Remove a meal that is no longer needed.
-- View saved meals in an organized format.
-- Save meal-planning information so the user does not have to recreate the plan each time the application is opened.
-- Additional features may be added later if they fit the course requirements and can be completed within the term.
+1. Display the main Meal Planner interface.
+2. Show the weekly meal planning section.
+3. Open a dialog for entering a meal.
+4. Save entered meals using local storage.
+5. Retrieve and display saved meals.
+6. Display confirmation messages after saving meals.
+7. Run in the Android emulator.
+
+The View Grocery List button currently displays saved meal entries rather than automatically generating a grocery list.
 
 ## VI. Design and Wireframes
 
-The application will use a simple layout with clear navigation between the main screens.
+The application was designed with a simple layout focused on readability and ease of use.
 
-Initial wireframes include:
+The design process included:
 
-1. Home Screen
-2. Weekly Meal Plan Screen
-3. Add/Edit Meal Screen
-4. Meal Details Screen
+- Creating an initial hand-drawn wireframe.
+- Developing a digital wireframe.
+- Building the main application interface using Android Studio.
+- Testing the interface and button functionality in the Android emulator.
 
-The wireframes show the planned placement of the major controls and information. The complete wireframes are included in the project outline.
+The final application includes a weekly planning section and two primary action buttons.
 
-## VII. Project Progress
+## VII. Development and Testing
 
-The Meal Planner application is currently in the design and development phase. Since the initial project outline, I have continued developing the application's design and planning how information will be stored and managed.
+The Meal Planner was developed in Android Studio using Java and XML.
 
-### Current Progress
+Completed development activities include:
 
-- Completed the initial project outline and application requirements.
-- Created hand-drawn and digital wireframes for the application.
-- Planned the weekly meal plan, meal entry, grocery list, and navigation features.
-- Added database planning and researched the use of SQLite for local data storage.
-- Updated the project Wiki with application design and database information.
+- Creating the Android application project.
+- Designing the main user interface.
+- Implementing the Add Meal functionality.
+- Implementing local meal storage.
+- Implementing the saved meal display.
+- Correcting identified Java code errors.
+- Successfully building and running the application in the Android emulator.
 
-### Next Steps
+## VIII. GitHub Documentation
 
-- Begin implementing the Meal Planner interface in Android.
-- Develop the add and view meal functionality.
-- Continue planning and developing the grocery list feature.
-- Implement local data storage as appropriate.
-- Test application functionality and correct identified issues.
-- Continue pushing project updates to GitHub in preparation for the final submission.
+GitHub was used to manage the project files and document development progress.
 
-## Current Project Progress
+The repository contains the Android Studio project files and application source code.
 
-The Meal Planner application has entered the Android development stage. The initial user interface has been created in Android Studio and includes a weekly meal plan, an Add Meal button, and a Grocery List button.
+The project Wiki includes documentation related to the application design and wireframes.
 
-Basic button functionality has been implemented and successfully tested using the Android emulator. The project documentation and wireframe have also been updated to reflect the current application design.
+**GitHub Repository:**  
+https://github.com/mwilliams561001/meal-planner-app
 
-### Current Updates
-- Created the initial Meal Planner interface in Android Studio.
-- Added the weekly meal plan display.
-- Added Add Meal and Grocery List buttons.
-- Implemented basic button functionality.
-- Successfully built and tested the application in the Android emulator.
-- Updated the GitHub Wiki with current development progress.
-- Pushed the current Android Studio project to GitHub.
+**README:**  
+https://github.com/mwilliams561001/meal-planner-app/blob/main/README.md
 
-### Future Updates
-- Add functionality for creating and saving meals.
-- Develop the grocery list feature.
-- Implement local data storage.
-- Continue improving the user interface.
-- Test and finalize the application for the Module 8 submission.
+**Project Wiki:**  
+https://github.com/mwilliams561001/meal-planner-app/wiki
+
+## IX. Project Conclusion
+
+The Meal Planner project demonstrates the development of a functional Android application using Java, XML, and local data storage. The completed application allows users to enter, save, and view meal information through a simple interface.
+
+The project also provided practical experience with Android Studio, application testing, GitHub version control, and software documentation.
